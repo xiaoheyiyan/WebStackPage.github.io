@@ -2211,20 +2211,6 @@
     <!-- JavaScripts initializations and stuff -->
     <script src="../assets/js/xenon-custom.js"></script>
     <script src="../assets/js/lozad.js"></script>
-   <!-- 添加 Vercel Web Analytics 脚本 -->
-  <!-- 定义一个全局变量va，如果不存在则创建，并异步加载 Vercel 的 Web Analytics 脚本 -->
-  <script>
-    (window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); }).push({
-      'track': 'pageview' // 可以根据需要添加其他追踪事件
-    });
-    (function() {
-      var script = document.createElement('script');
-      script.defer = true;
-      script.src = '/_vercel/insights/script.js';
-      document.body.appendChild(script);
-    })();
-  </script>
-  <!-- 结束添加 Vercel Web Analytics 脚本 -->
 </body>
 
 </html>
